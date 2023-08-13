@@ -11,7 +11,7 @@ const LogInPage = () => {
     }
     return (
         <div>
-            <h2>Login Page</h2>
+            <h2 className='heading'>Login Page</h2>
             <br />
             <Link href='login/loginStudent'>student login</Link>
             <br />

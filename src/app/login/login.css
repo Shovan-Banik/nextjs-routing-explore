@@ -1,0 +1,24 @@
+.login-nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.login-nav li{
+    color: brown;
+    font-weight: bold;
+}
+
+.login-nav li:hover{
+    background: blueviolet;
+    color: azure;
+    padding: 8px;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-top: 40px;
+    color:crimson
+}
