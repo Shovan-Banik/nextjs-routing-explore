@@ -24,6 +24,9 @@ export default function Home() {
      <br />
      <br />
      <Study></Study>
+     <br />
+     <br />
+     <p><Link href='/productList'>All product</Link></p>
     </main>
   )
 }
