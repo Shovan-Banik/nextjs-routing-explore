@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
-
+const nextConfig = {
+    images: {
+      domains: ['dummyjson.com', 'i.dummyjson.com'], // Add both domains here
+    },
+  };
+  
+  module.exports = nextConfig;
 // module.exports = {
 //     images: {
 //       remotePatterns: [

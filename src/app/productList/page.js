@@ -22,7 +22,7 @@ const ProductList = () => {
                 {
                     products.map((product) => (
                         <div className="border-2 border-red-600 p-5" key={product.id}>
-                            {/* <Image src={product.thumbnail} alt="phone" width={200} height={200}></Image> */}
+                            <Image src={product.thumbnail} alt="phone" className="fill" width={400} height={400}></Image>
                             <h2>Title: {product.tittle}</h2>
                             <p>Price: {product.price}</p>
                             <p>Stock: {product.stock}</p>
